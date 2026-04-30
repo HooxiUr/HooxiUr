@@ -1,4 +1,4 @@
-name: generate snake
+name: generate 3d profile
 
 on:
   schedule:
@@ -15,18 +15,18 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: generate snake svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: HooxiUr
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+      - uses: actions/checkout@v4
 
-      - name: push to output branch
+      - name: generate 3d contribution svgs
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: HooxiUr
+
+      - name: deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: profile-3d-contrib
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

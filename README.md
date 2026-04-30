@@ -51,9 +51,9 @@ A handful of smaller CLI tools and infra glue I keep around but don't ship.
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HooxiUr/HooxiUr/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HooxiUr/HooxiUr/output/github-snake.svg" />
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/HooxiUr/HooxiUr/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HooxiUr/HooxiUr/output/profile-night-view.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HooxiUr/HooxiUr/output/profile-3d.svg" />
+  <img alt="3d contribution graph" src="https://raw.githubusercontent.com/HooxiUr/HooxiUr/output/profile-3d.svg" />
 </picture>
 
 ---

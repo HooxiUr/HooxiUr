@@ -36,10 +36,6 @@ a soft spot for restrained, typography-first interfaces over badge-heavy layouts
 player. .NET 8 + WinUI 3, three surfaces (main / floating hover / Dynamic-Island pill),
 syllable-level KRC/QRC sync, NetEase + KuGou + QQ Music + Spotify + LRCLIB provider chain.
 
-**[GTAWorld-Chinese](https://github.com/GTAWorld-Chinese)** &nbsp;—&nbsp; RAGE:MP server infrastructure for the Chinese-region
-GTA-RP community. C# game logic, Laravel + React control panels, a ~240k-string
-localization pipeline, and an LLM-driven NPC stack in progress.
-
 A handful of smaller CLI tools and infra glue I keep around but don't ship.
 
 ---

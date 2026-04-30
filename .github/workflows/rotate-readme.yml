@@ -1,0 +1,41 @@
+name: rotate readme svg
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"   # Mondays 00:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: pick theme by ISO week
+        id: pick
+        run: |
+          themes=(profile-night-rainbow profile-season-animate profile-gitblock)
+          week=$(date -u +%V)
+          idx=$(( 10#$week % 3 ))
+          theme="${themes[$idx]}"
+          echo "theme=$theme" >> "$GITHUB_OUTPUT"
+          echo "picked $theme (week $week, idx $idx)"
+
+      - name: rewrite README
+        run: |
+          sed -i -E "s|profile-[a-z-]+\.svg|${{ steps.pick.outputs.theme }}.svg|g" README.md
+
+      - name: commit if changed
+        run: |
+          git config user.name "HooxiUr"
+          git config user.email "116949529+HooxiUr@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "no change, skipping"
+            exit 0
+          fi
+          git commit -m "chore: rotate readme svg → ${{ steps.pick.outputs.theme }}"
+          git push origin main

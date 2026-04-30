@@ -51,7 +51,7 @@ A handful of smaller CLI tools and infra glue I keep around but don't ship.
 ---
 
 <p align="center">
-  <img alt="3d contribution graph" src="https://raw.githubusercontent.com/HooxiUr/HooxiUr/output/profile-south-season.svg" />
+  <img alt="3d contribution graph" src="https://raw.githubusercontent.com/HooxiUr/HooxiUr/output/profile-night-rainbow.svg" />
 </p>
 
 ---

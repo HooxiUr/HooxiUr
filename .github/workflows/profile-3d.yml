@@ -23,6 +23,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: HooxiUr
 
+      - name: crop footer stats row from svgs
+        run: |
+          for f in profile-3d-contrib/*.svg; do
+            sed -i -E 's|(<svg[^>]*\sheight=")850(")|\1790\2|; s|(viewBox="0 0 1280 )850(")|\1790\2|' "$f"
+          done
+
       - name: deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:

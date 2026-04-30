@@ -11,8 +11,6 @@
     &nbsp;·&nbsp;
     <a href="https://github.com/GTAWorld-Chinese">GTAWorld-Chinese</a>
     &nbsp;·&nbsp;
-    <a href="https://status.gta-w.cn">status.gta-w.cn</a>
-    &nbsp;·&nbsp;
     Singapore
   </sub>
 </p>
@@ -49,6 +47,14 @@ A handful of smaller CLI tools and infra glue I keep around but don't ship.
 | **Web** | React &nbsp;·&nbsp; Next.js &nbsp;·&nbsp; Laravel &nbsp;·&nbsp; Node.js &nbsp;·&nbsp; Nginx |
 | **Data** | MySQL / MariaDB &nbsp;·&nbsp; Redis |
 | **Tooling** | Git &nbsp;·&nbsp; Playwright &nbsp;·&nbsp; Docker |
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HooxiUr/HooxiUr/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HooxiUr/HooxiUr/output/github-snake.svg" />
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/HooxiUr/HooxiUr/output/github-snake.svg" />
+</picture>
 
 ---
 

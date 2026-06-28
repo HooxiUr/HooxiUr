@@ -28,16 +28,6 @@ a soft spot for restrained, typography-first interfaces over badge-heavy layouts
 
 ---
 
-### Currently &nbsp;·&nbsp; 在做
-
-**[cadenza](https://github.com/HooxiUr/cadenza)** &nbsp;—&nbsp; open-source Windows 11 desktop lyrics for any SMTC-compatible
-player. .NET 8 + WinUI 3, three surfaces (main / floating hover / Dynamic-Island pill),
-syllable-level KRC/QRC sync, NetEase + KuGou + QQ Music + Spotify + LRCLIB provider chain.
-
-A handful of smaller CLI tools and infra glue I keep around but don't ship.
-
----
-
 ### Stack &nbsp;·&nbsp; 技术栈
 
 | | |

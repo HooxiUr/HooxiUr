@@ -41,7 +41,7 @@ a soft spot for restrained, typography-first interfaces over badge-heavy layouts
 ---
 
 <p align="center">
-  <img alt="3d contribution graph" src="https://raw.githubusercontent.com/HooxiUr/HooxiUr/output/profile-night-rainbow.svg" />
+  <img alt="3d contribution graph" src="https://raw.githubusercontent.com/HooxiUr/HooxiUr/output/profile-season-animate.svg" />
 </p>
 
 ---
